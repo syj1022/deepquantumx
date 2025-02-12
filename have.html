@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Have Data - DeepQuantumX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#team">Our Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <h1>Submit Your Data to DeepQuantumX</h1>
+        <p>Help us revolutionize scientific discovery with your valuable data!</p>
+    </header>
+
+    <section id="submit-data" class="cta">
+        <h2>Share Your Data</h2>
+        <p>Please fill out the form below to submit your data.<p>
+        <p>Learn our terms for data security <a href="policy" target="_blank">policy</a>.</p>
+        <p>Learn your premium <a href="benefits" target="_blank">benefits</a> for data sharing. </p>
+
+        <p><br><p>
+        <form action="submit-data-handler.php" method="POST">
+            <label for="data-name">Data Name:</label>
+            <input type="text" id="data-name" name="data-name" required><br><br>
+
+        <label for="data-description">Data Description:</label>
+        <textarea id="data-description" name="data-description" rows="4" required></textarea><br><br>
+
+
+            <label for="data-file">Upload Your Data File:</label>
+            <input type="file" id="data-file" name="data-file" accept=".csv,.txt,.json,.xml" required><br><br>
+
+            <label for="data-contact">Your Contact Information:</label>
+            <input type="email" id="data-contact" name="data-contact" required><br><br>
+
+            <input type="submit" value="Submit Data" class="button">
+        </form>
+    </section>
+
+    <section class="cta">
+        <a href="index.html" class="button">Back to Main Page</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 DeepQuantumX. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>

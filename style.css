@@ -10,7 +10,7 @@
 body {
     text-align: center;
     background: url('background.png') no-repeat center center;
-    background-size: 100%;
+    background-size: 105%;
     background-attachment: scroll; /* This makes the image scroll with the page */
     color: white; /* Ensures text visibility */
     padding-top: 60px; /* Prevents content from being hidden under fixed navbar */

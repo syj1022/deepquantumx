@@ -114,6 +114,11 @@ section h2 {
     margin-right: 10px; /* Adjust the value as needed */
 }
 
+#team .button img {
+    width: 700px;  /* Adjust width */
+    height: auto;  /* Maintain aspect ratio */
+}
+
 /* Footer */
 footer {
     margin-top: 50px;
@@ -121,3 +126,4 @@ footer {
     background: rgba(0, 0, 0, 0.8);
     font-size: 14px;
 }
+
